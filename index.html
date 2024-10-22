@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pac-Man</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="score-panel">
+            <div>HiScore: <span id="highScore">00000000</span></div>
+            <div>Score: <span id="score">00000000</span></div>
+            <div>Lives: <span id="lives">02</span></div>
+            <div>Level: <span id="level">01</span></div>
+            <div>Bonus: <span id="bonus">0000</span></div>
+        </div>
+        <button id="startButton" class="start-button">Start Game</button>
+    </div>
+    <script type="module" src="js/game.js"></script>
+</body>
+</html>
